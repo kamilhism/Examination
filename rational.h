@@ -18,11 +18,11 @@ int nod(int a,int b)
 }
 int nok(int x, int y)
 {
-  int prod = x * y;
-  int Nod = nod(x,y);
-  int nok = prod / Nod;
+      int prod = x * y;
+      int Nod = nod(x,y);
+      int nok = prod / Nod;
 
-  return nok;
+      return nok;
 }
 class rational{
     friend ostream& operator <<(ostream &s,rational *c);

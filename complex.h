@@ -14,14 +14,14 @@ class complex
             float imag;
    public:
           complex(float,float);
-          complex(complex&);
+          complex(const complex &);
           complex operator +(complex);
           complex operator -(complex);
           complex operator *(complex);
           complex operator /(complex);
           float modul();
           bool operator ==(complex);
-          void operator =(complex);
+          void operator=(complex);
           friend ostream& operator <<(ostream &s,complex &c);
 };
             complex::complex(float r=0.0f,float im=0.0f)
@@ -29,7 +29,7 @@ class complex
                 real=r;
                 imag=im;
             }
-            complex::complex(complex &c)
+            complex::complex(const complex &c)
             {
                 this->real=c.real;
                 this->imag=c.imag;
@@ -91,8 +91,6 @@ class complex
 
             ostream& operator <<(ostream &s,complex &c)
             {
-                s<<"Real Part = "<<c.real<<endl
-                <<"Imaginary Part = "<<c.imag<<endl;
                 s<<"z = "<<c.real<<setiosflags(ios::showpos)
                 <<c.imag<<"i"<<endl<<resetiosflags(ios::showpos);
                 return s;

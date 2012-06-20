@@ -6,5 +6,6 @@ SOURCES += main.cpp
 
 HEADERS += \
     rational.h \
-    complex.h
+    complex.h \
+    vector.h
 

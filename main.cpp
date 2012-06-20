@@ -3,7 +3,8 @@
 #include <math.h>
 
 //#include "rational.h"
-#include "complex.h"
+//#include "complex.h"
+#include "vector.h"
 
 
 using namespace std;
