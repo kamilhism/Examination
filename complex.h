@@ -1,11 +1,10 @@
-#ifndef COMPLEX_H
+п»ї#ifndef COMPLEX_H
 #define COMPLEX_H
 
 #include <cmath>
 #include <iostream>
 
 using namespace std;
-
 
 class complex
 {
@@ -76,7 +75,7 @@ class complex
                return tmp;
             }
 
-            float complex::modul() //Модуль комплексного числа
+            float complex::modul() //ГЊГ®Г¤ГіГ«Гј ГЄГ®Г¬ГЇГ«ГҐГЄГ±Г­Г®ГЈГ® Г·ГЁГ±Г«Г 
             {
                float z;
                z=(real*real)+(imag*imag);
