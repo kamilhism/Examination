@@ -8,7 +8,7 @@ using namespace std;
 
 class complex
 {
-     private:
+   private:
             float real;
             float imag;
    public:
