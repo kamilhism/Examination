@@ -72,7 +72,6 @@ void example()
 
     M.Display();
 
-    cout << "\n After multiply by 5\n" << endl;
     M.MultiplyBy(5);
     M.Display();
 
