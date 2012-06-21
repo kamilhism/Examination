@@ -4,6 +4,7 @@
 #include <iostream>
 using namespace std;
 
+
 class vector
 {
     int *v;
@@ -17,7 +18,6 @@ public:
     int &operator[](int);
     int &elem(int i) {return v[i];}
 };
-
 vector::vector(int s)
 {
     if(s<=0)
