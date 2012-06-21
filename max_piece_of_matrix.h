@@ -5,7 +5,7 @@
 #include <vector>
 using namespace std;
 
-int sum_subarray(std::vector< std::vector<int> >  A,int i,int j,int width,int height)
+int sum(std::vector< std::vector<int> >  A,int i,int j,int width,int height)
 {
     int sum=0;
 
@@ -27,7 +27,6 @@ void example()
         for(int j=0;j<N;j++)
         {
             A[i][j]=tempA[i][j];
-            cout<<A[i][j];
         }
 
     int maxSum = A[0][0];
@@ -37,7 +36,7 @@ void example()
           for (int width = 1; width <= M - i; width++)
             for (int height = 1; height <= N - j; height++)
             {
-              int currentSum = sum_subarray(A, i, j, i + width, j + height);
+              int currentSum = sum(A, i, j, i + width, j + height);
               if (currentSum > maxSum)
               {
                 maxSum = currentSum;
