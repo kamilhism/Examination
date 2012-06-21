@@ -24,6 +24,7 @@ int nok(int x, int y)
 
       return nok;
 }
+
 class rational{
     friend ostream& operator <<(ostream &s,rational *c);
 private:
