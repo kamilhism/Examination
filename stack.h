@@ -45,6 +45,10 @@ class Stack
         int peek();
 
         int returnSize();
+        bool empty()
+        {
+            return top==NULL;
+        }
 };
 
 int Stack::returnSize()
@@ -83,6 +87,10 @@ void example(){
     s.push(1);
 
     cout<<s.peek();
+
+    cout<<s.empty();
+    s.pop();
+    cout<<s.empty();
 
 }
 
