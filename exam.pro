@@ -9,5 +9,6 @@ HEADERS += \
     complex.h \
     vector.h \
     matrix.h \
-    ackermann.h
+    ackermann.h \
+    a.b.h
 
