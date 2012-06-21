@@ -14,5 +14,8 @@ HEADERS += \
     skobki.h \
     max_piece_of_matrix.h \
     spiski_askar.h \
-    saddle_point.h
+    saddle_point.h \
+    date_time.h \
+    stack.h \
+    queue.h
 
