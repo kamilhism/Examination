@@ -10,5 +10,9 @@ HEADERS += \
     vector.h \
     matrix.h \
     ackermann.h \
-    a.b.h
+    a.b.h \
+    skobki.h \
+    max_piece_of_matrix.h \
+    spiski_askar.h \
+    saddle_point.h
 
